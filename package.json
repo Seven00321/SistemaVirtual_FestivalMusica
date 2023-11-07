@@ -1,0 +1,30 @@
+{
+  "name": "sistemavirtual_festivalmusica_inicio",
+  "version": "1.0.0",
+  "description": "Proyecto con Gulp, SASS y HTML",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seven00321/SistemaVirtual_FestivalMusica.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Richard M. Pereira Chinchero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Seven00321/SistemaVirtual_FestivalMusica/issues"
+  },
+  "homepage": "https://github.com/Seven00321/SistemaVirtual_FestivalMusica#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.69.5"
+  }
+}
